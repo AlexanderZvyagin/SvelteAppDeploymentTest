@@ -19,4 +19,4 @@ COPY --from=build /app/build ./build
 RUN npm install --production
 
 EXPOSE 8080
-ENTRYPOINT ['npm', 'run', 'start']
+ENTRYPOINT ["npm", "run", "start"]
